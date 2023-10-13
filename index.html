@@ -22,8 +22,8 @@ layout: default
         <ul class="nav navbar-nav">
           <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
           <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-          <li class="nav-item"><a class="scrollto" href="#join">Current Issue</a></li>
-          <li class="nav-item"><a class="scrollto" href="#join">Archive</a></li>
+          <li class="nav-item"><a class="scrollto" href="#Issue">Current Issue</a></li>
+          <li class="nav-item"><a class="scrollto" href="#Archive">Archive</a></li>
           <li class="nav-item"><a class="scrollto" href="#join">Author Information</a></li>
           <li class="nav-item"><a class="scrollto" href="#join">Editorial Board</a></li>
           <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
@@ -76,9 +76,17 @@ layout: default
 </section><!--//about-->
 
 <!-- ******CURRENT ISSUE****** -->
-<section id="Current Issue" class="about section">
+<section id="Issue" class="join section">
   <div class="container">
     <h2 class="title text-center">Current Issue</h2>
+    <p class="intro text-center">{{ site.org_full_description }}</p>
+  </div><!--//container-->
+</section><!--//about-->
+
+<!-- ******ARCHIVE****** -->
+<section id="Archive" class="about section">
+  <div class="container">
+    <h2 class="title text-center">Archive</h2>
     <p class="intro text-center">{{ site.org_full_description }}</p>
   </div><!--//container-->
 </section><!--//about-->
